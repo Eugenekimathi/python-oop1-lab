@@ -22,7 +22,7 @@ class Coffee:
 
     def tip(self):
         print("This coffee is great, here's a tip!")
-        self.price += 1 
+        self.price += 1
 
 # Create a coffee
 latte = Coffee("Medium", 3.5)
