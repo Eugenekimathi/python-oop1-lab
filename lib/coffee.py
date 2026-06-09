@@ -7,7 +7,7 @@ class Coffee:
         else:
             print("size must be small, Meduim, or Large")
             self._size = None
-            self.price = price
+        self.price = price
 
     @property
     def size(self):
