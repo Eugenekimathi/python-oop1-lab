@@ -24,7 +24,3 @@ class Coffee:
         print("This coffee is great, here's a tip!")
         self.price += 1
 
-# Create a coffee
-latte = Coffee("Medium", 3.5)
-latte.tip()         # Output: This coffee is great, here’s a tip!
-print(latte.price)  # 4.5                          
